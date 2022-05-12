@@ -1,4 +1,4 @@
-内容管家帝国cms文章发布插件
+内容管家pbootcms文章发布插件
 平台地址
 搜外内容管家平台地址：<a href="https://guanjia.seowhy.com">guanjia.seowhy.com</a>
 
