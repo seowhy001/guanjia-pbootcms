@@ -16,8 +16,7 @@ class SeowhyController extends Controller
     public function categoryLists(){
         $model_hash = $_REQUEST['model_hash']?$_REQUEST['model_hash']:2;
         $model =  new Model();
-        $list = $model->table('ay_content_sort')->where("mcode='$model_hash'")->where('status=1')->field('id,name as title')->select();
-
+        $list = $model->table('ay_content_sort')->where("mcode='$model_hash'")->where('status=1')->field('scode as id,name as title')->select();
         $tmpArrs = array();
         foreach ($list as $k=>&$v){
             $tmp = [];
